@@ -34,6 +34,10 @@ export declare class AndroidPackageManager extends AwesomeCordovaNativePlugin {
      */
     getPackageInfo(packageName: any, flags: string): Promise<any>;
     /**
+     * 인텐트 액티비티들을 가져온다.
+     */
+    queryIntentActivities(): Promise<any>;
+    /**
      * 태스크를 종료한다.
      */
     finishAndRemoveTask(): Promise<any>;
