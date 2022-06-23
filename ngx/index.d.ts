@@ -32,7 +32,7 @@ export declare class AndroidPackageManager extends AwesomeCordovaNativePlugin {
     /**
      * 패키지 정보를 가져온다.
      */
-    getPackageInfo(flag: string): Promise<any>;
+    getPackageInfo(packageName: any, flags: string): Promise<any>;
     /**
      * 태스크를 종료한다.
      */
