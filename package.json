@@ -1,0 +1,27 @@
+{
+  "name": "ionic-native-android-packagemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changhyeon-lee/cordova-plugin-android-packagemanager.git"
+  },
+  "keywords": [
+		"android-packagemanager",
+    "device",
+    "qnscale",
+    "cordova",
+    "ionic"
+  ],
+  "author": "morethani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changhyeon-lee/cordova-plugin-android-packagemanager/issues"
+  },
+  "homepage": "https://github.com/changhyeon-lee/cordova-plugin-android-packagemanager#readme"
+}
