@@ -64,7 +64,7 @@ export class AndroidPackageManager extends AwesomeCordovaNativePlugin {
      * 패키지 정보를 가져온다.
      */
     @Cordova()
-    getPackageInfo(flag: string): Promise<any> {
+    getPackageInfo(packageName, flags: string): Promise<any> {
       return; // We add return; here to avoid any IDE / Compiler errors
     }
     /**
