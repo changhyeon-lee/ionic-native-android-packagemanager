@@ -31,5 +31,26 @@ export class AndroidPackageManager extends IonicNativePlugin {
   getInstalledPackages(): Promise<any> {
     return; // We add return; here to avoid any IDE / Compiler errors
   }
+  /**
+   * 설치된 어플리케이션 목록을 가져온다.
+   */
+  @Cordova()
+  getInstalledApplications(): Promise<any> {
+    return; // We add return; here to avoid any IDE / Compiler errors
+  }
+  /**
+   * 패키지 정보를 가져온다.
+   */
+  @Cordova()
+  getPackageInfo(flag: string): Promise<any> {
+    return; // We add return; here to avoid any IDE / Compiler errors
+  }
+  /**
+   * 태스크를 종료한다.
+   */
+  @Cordova()
+  finishAndRemoveTask(): Promise<any> {
+    return; // We add return; here to avoid any IDE / Compiler errors
+  }
 
 }
