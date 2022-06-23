@@ -1,5 +1,26 @@
-import { IonicNativePlugin } from '@ionic-native/core';
-export declare class AndroidPackageManager extends IonicNativePlugin {
+import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+/**
+ * @name Android Package Manager
+ * @description
+ * This plugin does something
+ *
+ * @usage
+ * ```typescript
+ * import { AndroidPackageManager } from '@awesome-cordova-plugins/android-package-manager';
+ *
+ *
+ * constructor(private androidPackageManager: AndroidPackageManager) { }
+ *
+ * ...
+ *
+ *
+ * this.androidPackageManager.functionName('Hello', 123)
+ *   .then((res: any) => console.log(res))
+ *   .catch((error: any) => console.error(error));
+ *
+ * ```
+ */
+export declare class AndroidPackageManager extends AwesomeCordovaNativePlugin {
     /**
      * 설치된 패키지명 목록을 가져온다.
      */
