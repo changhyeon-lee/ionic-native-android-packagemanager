@@ -16,7 +16,7 @@ import { Observable } from 'rxjs';
 @Plugin({
   pluginName: 'cordova-plugin-android-packagemanager',
   plugin: 'cordova-plugin-android-packagemanager',
-  pluginRef: 'cordova.plugins.android.packagemanager',
+  pluginRef: 'cordova.plugins.morethani.packagemanager',
   repo: '', // the github repository URL for the plugin
   install: '', // OPTIONAL install command, in case the plugin requires variables
   installVariables: [], // OPTIONAL the plugin requires variables
